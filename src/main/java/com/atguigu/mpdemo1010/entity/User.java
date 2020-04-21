@@ -25,4 +25,5 @@ public class User {
     private String name1;
     private Integer method;
     private String churui;
+    private String chuziyi;
 }
