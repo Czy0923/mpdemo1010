@@ -24,4 +24,5 @@ public class User {
     @TableField(fill = FieldFill.INSERT)
     private String name1;
     private Integer method;
+
 }
