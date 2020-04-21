@@ -39,4 +39,13 @@ class Mpdemo1010ApplicationTests {
         System.out.println(i);
     }
 
+    @Test
+    public void TestUser() {
+        User user = new User();
+        user.setId(1250592237360390146l);
+        user.setName("褚呵呵1");
+        int i = userMapper.updateById(user);
+        System.out.println(i);
+    }
+
 }

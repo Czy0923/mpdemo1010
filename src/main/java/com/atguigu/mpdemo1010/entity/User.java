@@ -21,4 +21,6 @@ public class User {
     @Version
     @TableField(fill = FieldFill.INSERT)
     private Integer version;
+    @TableField(fill = FieldFill.INSERT)
+    private String name1;
 }
