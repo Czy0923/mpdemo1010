@@ -26,4 +26,7 @@ public class User {
     private Integer method;
     private String zhangfei;
     private String guanyu;
+    private String liubei;
+    private String zhaoyun;
+    private String caocao;
 }
