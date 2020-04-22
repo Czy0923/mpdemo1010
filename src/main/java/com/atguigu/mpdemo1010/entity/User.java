@@ -24,6 +24,6 @@ public class User {
     @TableField(fill = FieldFill.INSERT)
     private String name1;
     private Integer method;
-    private String churui;
-    private String chuziyi;
+    private String zhangfei;
+    private String guanyu;
 }
